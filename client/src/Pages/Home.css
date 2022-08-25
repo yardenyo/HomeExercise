@@ -1,0 +1,19 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+td {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+tr:hover {
+  background-color: coral;
+}

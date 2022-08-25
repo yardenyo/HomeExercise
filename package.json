@@ -1,0 +1,21 @@
+{
+  "name": "homeexercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "server": "nodemon server/app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run client\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
